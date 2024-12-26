@@ -1,0 +1,2 @@
+# Assembly Stack Buffer Overflow
+This repository demonstrates a potential stack buffer overflow vulnerability in assembly code and its solution. The bug involves incrementing a value on the stack without proper bounds checking, leading to a potential overwrite of adjacent stack memory.  The solution implements a check to prevent this overflow.
